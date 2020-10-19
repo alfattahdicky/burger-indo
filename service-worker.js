@@ -36,6 +36,7 @@ var urlsToCache = [
 	'https://images.unsplash.com/photo-1542342656241-f23fedd6bafa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80',
 	'https://images.unsplash.com/photo-1529564879024-c54e7c2dd0e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
 	'/assets/icon.png',
+	'/manifest.json',
 ];
 
 self.addEventListener('install', function (event) {
