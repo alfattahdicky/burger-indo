@@ -1,0 +1,16 @@
+{
+  "name": "Burger Indonesia",
+  "short_name": "Burger Indo",
+  "description": "Restoran Burger Indonesia yang memiliki racikan dan cita rasa khas indonesia",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#36acdb",
+  "theme_color": "#36acdb",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

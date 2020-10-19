@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="manifest" href="/manifest.json">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="theme-color" content="#36acdb"/>
+      <title>Burger Indonesia</title>
+    </head>
+
+    <body id="home">
+      <!-- Navigasi -->
+      <div class="navbar-fixed">
+        <nav class="blue lighten">
+          <div class="container nav-wrapper">
+            <a href="#!" class="brand-logo logo">Burger Indo</a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons icon">menu</i></a>
+            
+            <ul class="topnav right hide-on-med-and-down"></ul>
+          </div>
+        </nav>
+      </div>
+      <ul class="sidenav" id="nav-mobile"></ul>
+
+      <!-- Hero -->
+      <div class="body-content"></div>
+
+      <footer class="page-footer blue">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12 white-text">
+              <h5>Burger Indo</h5>
+              <p>Jl. Lebak Para No. 24 Cijantung, Pasar Rebo, Jakarta Timur DKI Jakarta</p>
+              <p>Hubungi: 08201095209</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Site Maps</h5>
+              <ul>
+                <li><a class="link white-text" href="#!">Home</a></li>
+                <li><a class="link white-text" href="#!">Product</a></li>
+                <li><a class="link white-text" href="#!">Contact</a></li>
+                <li><a class="link white-text" href="#!">Service</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright blue">
+          <div class="container center white-text">
+          Burger Indo © 2020 Copyright Jakarta
+          </div>
+        </div>
+      </footer>
+  
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="/js/script.js"></script>
+      <script>
+        // Register SW
+        if('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js')
+             .then(function() {
+               console.log('Pendaftaran ServiceWorker berhasil');
+             })
+             .catch(function() {
+               console.log('Pendaftaran ServiceWorker gagal');
+             })
+          })
+        } else{
+          console.log('ServiceWorker belum didukung browser ini.');
+        }
+      </script>
+    </body>
+  </html>
+        
