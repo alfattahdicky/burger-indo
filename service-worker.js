@@ -1,4 +1,4 @@
-const CACHE_NAME = 'burgerIndo-v12';
+const CACHE_NAME = 'burgerIndo';
 let urlsToCache = [
 	'/',
 	'/nav.html',
@@ -16,6 +16,7 @@ let urlsToCache = [
 	'/icon-512x512.png',
 	'/manifest.json',
 	'https://fonts.googleapis.com/icon?family=Material+Icons',
+	'https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2',
 	'/assets/1.png',
 	'/assets/2.png',
 	'/assets/3.png',
