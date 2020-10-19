@@ -13,7 +13,7 @@ body{
 }
 
 .logo{
-  font-size: 2rem !important;
+  font-size: 1.8rem !important;
 }
 
 .link:hover{
@@ -26,11 +26,6 @@ body{
   object-fit: cover;
   object-position: center;
 }
-
-/* .text-hero h3{
-  text-shadow: 2px 2px 5px #000;
-  font-size: clamp(3.5rem, 5vw, 8rem) !important;
-} */
 
 .parallax-container{
   display: grid;
@@ -58,14 +53,14 @@ body{
   height: 25vh;
   object-fit: cover;
   object-position: center;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.619);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.431);
 }
 
 /* Menu */
   /* Mobile */
 .menu-food{
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: 30vh;
   object-fit: cover;
   object-position: center;
 }
@@ -79,18 +74,8 @@ body{
 }
 
 /* Contact */
-.container-maps iframe{
-  width: 100%;
-  height: 80vmin;
-  margin-bottom: -7px;
-}
-
 
 /* Recipe */
-.food-recipe{
-  height: 20vh;
-}
-
 
   /* Desktop */
 @media (min-width: 768px) {
@@ -107,9 +92,9 @@ body{
     height: 40vh;
   }
 
-  /* recipe.html */
+  /* recipe.html
   .food-recipe{
     height: 30vh;
-  }
+  } */
 }
   
