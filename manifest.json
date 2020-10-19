@@ -6,6 +6,7 @@
   "display": "standalone",
   "background_color": "#f7f7f7",
   "theme_color": "#f7f7f7",
+  "purpose": "any maskable",
   "icons": [
     {
       "src": "icon.png",
