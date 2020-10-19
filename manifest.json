@@ -4,8 +4,8 @@
   "description": "Restoran Burger Indonesia yang memiliki racikan dan cita rasa khas indonesia",
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#36acdb",
-  "theme_color": "#36acdb",
+  "background_color": "#f7f7f7",
+  "theme_color": "#f7f7f7",
   "icons": [
     {
       "src": "icon.png",
