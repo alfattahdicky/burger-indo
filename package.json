@@ -1,6 +1,6 @@
 {
   "name": "pwa-food",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "<p align=\"center\">   <a href=\"http://materializecss.com/\">     <img src=\"http://materializecss.com/res/materialize.svg\" width=\"150\">   </a> </p>",
   "main": "index.js",
   "dependencies": {},
