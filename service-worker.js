@@ -1,4 +1,4 @@
-const CACHE_NAME = 'burgerIndo-v7';
+const CACHE_NAME = 'burgerIndo-v8';
 var urlsToCache = [
 	'/',
 	'/nav.html',
